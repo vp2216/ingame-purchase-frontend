@@ -1,0 +1,36 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(59, 59, 59);
+  overflow: scroll;
+}
+
+.main-body {
+  width: 95%;
+  margin: 1% auto 5% auto;
+  display: flex;
+  justify-content:center;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.nologin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.expired {
+  font-size: 3rem;
+  font-weight: 800;
+  color: lightgreen;
+}
+
+.offer-cards {
+  margin-top: 2rem;
+  width: 30vw;
+}

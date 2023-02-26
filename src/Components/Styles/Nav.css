@@ -1,0 +1,72 @@
+.nav {
+  position: sticky;
+  top: 0;
+  background: rgb(95, 95, 95);
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: lightgreen;
+}
+
+.nav-input {
+  padding: 5px;
+  background: lightgray;
+  font-size: 1rem;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: auto;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-btn {
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 3px;
+  background: lightgreen;
+  transition: ease-in-out 200ms;
+  cursor: pointer;
+  text-align: center;
+}
+
+.nav-btn:hover {
+  background: rgb(185, 252, 185);
+}
+
+
+.showcoins{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+
+.coins{
+  color: lightgreen;
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  cursor: default;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.name {
+  font-weight: 800;
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+  color: lightgreen;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.btn {
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 3px;
+  background: lightgreen;
+  transition: ease-in-out 200ms;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: rgb(185, 252, 185);
+  scale: 110%;
+}
+
+.btn:disabled:hover {
+  scale: none;
+  background: lightgreen;
+}
+
+.inputs {
+  padding: 10px;
+  background: lightgray;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: auto;
+  resize: none;
+}
+
+.message {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.msg-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  background: lightblue;
+  padding: 20px;
+  border-radius: 3px;
+  min-width: 50vh;
+}
+
+.msg-body {
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.msg-btn {
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 3px;
+  background: lightgreen;
+  transition: ease-in-out 200ms;
+  cursor: pointer;
+  text-align: center;
+}
+
+.msg-btn:hover {
+  background: rgb(185, 252, 185);
+}

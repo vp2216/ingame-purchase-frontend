@@ -1,0 +1,51 @@
+.login-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 2rem;
+  position: relative;
+  background-color: rgb(59, 59, 59);
+  z-index: 10;
+}
+
+.login-main::after {
+  content: "";
+  position: absolute;
+  background: url("../Assets/bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 1rem;
+}
+
+.checkbox {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.warn {
+  color: white;
+  padding: 5px;
+  background: red;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 600;
+  font-family: "Alegreya Sans SC", sans-serif;
+  letter-spacing: 1px;
+}

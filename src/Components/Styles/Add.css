@@ -1,0 +1,47 @@
+.add-main {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(59, 59, 59);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.top {
+  padding: 1rem;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 40%;
+  padding: 5rem 0;
+}
+
+.add-input {
+  width: 100%;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.label {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
